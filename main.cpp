@@ -140,7 +140,7 @@ void InitializeMama(MamaBaobao& hospital, MamaBaobao& yuesao) {
             make_pair("一次性马桶垫（包）", 2),
             make_pair("一次性内裤（条）", 20),
             make_pair("卫生纸（卷）", 2),
-            make_pair("也用卫生巾（包）", 3),
+            make_pair("夜用卫生巾（包）", 3),
             make_pair("肥皂", 1),
             make_pair("防滑拖鞋（软底）", 1),
     };
@@ -184,7 +184,7 @@ void InitializeBaobao(MamaBaobao& hospital, MamaBaobao& yuesao) {
             make_pair("浴巾", 2),
             make_pair("奶瓶", 2),
             make_pair("奶瓶刷", 1),
-            make_pair("奶瓶头", 1),
+            make_pair("奶瓶夹", 1),
             make_pair("不锈钢小盒子（装奶瓶头、奶瓶刷、架子、浸泡烫奶瓶）", 1),
             make_pair("奶粉（小罐）", 1),
             make_pair("尿不湿NB（包）", 1),
@@ -192,7 +192,7 @@ void InitializeBaobao(MamaBaobao& hospital, MamaBaobao& yuesao) {
     };
     hospital.AddGiftList(listHospitalGift);
     hospital.AddBuyList(listHospitalBuy);
-    yuesao.AddAll(listYuesao);
+    yuesao.AddBuyList(listYuesao);
 }
 
 int main()
